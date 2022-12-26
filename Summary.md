@@ -1,24 +1,4 @@
 # Summary
 
-* [Introduction](README.md)
-* [系统简介](overview/系统简介.md)
-* [操作指引](UserGuides/Guide.md)
-* [客户端接入](overview/新业务接入.md)
-  * [HTTP接入](api/HTTP接入.md)
-  * [SDK接入](api/SDK接入.md)
-* [系统功能介绍](UserGuides/FuncIntroduction.md)
-  * [编译打包](UserGuides/Build.md)
-	* [打包信息](UserGuides/PackageInfo.md)
-	* [计划列表](UserGuides/PlanTaskList.md)
-  * [部署管理](UserGuides/DeploymentInfo.md)
-  * [版本管理](UserGuides/VersionManagement.md)
-	* [版本](UserGuides/VersionInfo.md)
-	* [发布概览（组维度）](UserGuides/PubOverview.md)
-  * [日志管理](UserGuides/LogManagement.md)
-  * [申请管理](UserGuides/ApplyManagement.md)
-  * [静态基础配置](UserGuides/Resource.md)
-	* [模块管理](UserGuides/ModuleInfo.md)
-	* [分组管理](UserGuides/GroupInfo.md)
-	* [身份标签管理](UserGuides/IdentityInfo.md)
-* [联系我们](ContactUs.md)
+
 
