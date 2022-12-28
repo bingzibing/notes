@@ -44,14 +44,16 @@ Jvm 调优典型参数设置;
 
 **JVM 调优设置合理大小堆内存空间，既不能太大，也不能太小，那么应该设置为多少呢？**，默认的配置是否存在性能瓶颈。如果想要确定 JVM 性能问题瓶颈，需要进一步分析GC 日志
 
-* -XX:+PrintGCDetails 开启 GC 日志创建更详细的 GC 日志，默认情况下 GC 日志是关闭的
-* -XX:+PrintGCTimeStamps，-XX:+PrintGCDateStamps：开启 GC 时间提示
+-XX:+PrintGCDetails 开启 GC 日志创建更详细的 GC 日志，默认情况下 GC 日志是关闭的
+
+-XX:+PrintGCTimeStamps，-XX:+PrintGCDateStamps：开启 GC 时间提示
   
 * 开启时间便于我们更精确地判断几次 GC 操作之间两个参数的区别
 * 时间戳是相对于 0（依据 JVM 启动的时间）的值，而日期戳（date stamp）是实际的日期字符串
 * 由于日期戳需要进行格式化，所以它的效率可能会受轻微的影响，不过这种操作并不频繁，它造成的影响也很难被我们感知
 
-* -XX:+PrintHeapAtGC 打印堆的 GC 日志
-* -Xloggc:./logs/gc.log 指定 GC 日志路径
+-XX:+PrintHeapAtGC 打印堆的 GC 日志
+
+-Xloggc:./logs/gc.log 指定 GC 日志路径
 
 
